@@ -1,0 +1,12 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.promo {
+    height: 800px;
+    
+    background-color: rgba(44,44,44,0.8);
+    background: url("../img/bg/main_bg.jpg") center center/cover no-repeat;
+
+}
