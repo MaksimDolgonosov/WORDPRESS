@@ -3,11 +3,16 @@
     margin: 0;
     padding: 0;
 }
+
+html {
+    font-family: 'San Francisco Text Light', sans-serif
+}
+
 .promo {
-    height: 800px;    
-    background-color: rgba(44,44,44,0.8);
+    height: 800px;
+    background-color: rgba(44, 44, 44, 0.8);
     background: url("../img/bg/main.jpg") center center/cover no-repeat;
-    padding: 39px 0px 62px 0px ;
+    padding: 39px 0px 62px 0px;
 }
 
 .container {
@@ -15,33 +20,38 @@
     width: 1140px;
     margin: 0 auto;
 }
-.logo .logo_img{
+
+.logo .logo_img {
     display: block;
     margin: 0 auto;
     width: 83px;
     height: 71px;
-    
+
 }
-.logo .logo_text{
+
+.logo .logo_text {
+    font-family: 'San Francisco Text Light';
     margin-top: 14px;
     text-align: center;
-    font-family: Roboto;
     font-size: 15px;
     font-weight: 500;
     text-transform: uppercase;
     color: #ffffff;
 }
-h1{
+
+h1 {
     margin-top: 53px;
     line-height: 24px;
 }
+
 h2.title {
     margin-top: 30px;
     line-height: 24px;
-    
+
 }
+
 .title {
-    font-family: Roboto;
+
     font-size: 41px;
     font-weight: 900;
     text-transform: uppercase;
@@ -49,33 +59,34 @@ h2.title {
     text-align: center;
     line-height: 24px;
 }
+
 .title_big {
-    font-family: Roboto;
-    font-size: 80px;  
+    font-size: 80px;
     font-weight: 900;
     text-transform: uppercase;
     color: #ffffff;
     text-align: center;
     margin-top: 21px;
 }
+
 .promo .promo_text {
     padding: 0px 13px;
-    font-family: Roboto;
     font-size: 21px;
     line-height: 28px;
     font-weight: 300;
     color: #ffffff;
     text-align: center;
     margin-top: 23px;
-    
+
 }
+
 .promo .promo_text span {
-    font-family: Roboto;
     font-size: 21px;
     line-height: 28px;
     font-weight: 700;
     color: #f9bf3b;
 }
+
 .promo .promo_btn {
     display: block;
     margin: 0px auto;
@@ -84,81 +95,89 @@ h2.title {
     height: 72px;
     background-image: linear-gradient(to top, #2798b9 0%, #3ab6da 100%);
     border: 4px solid rgba(0, 0, 0, 0.23);
-    box-shadow: inset 0 0 0 rgba(0,0,0,0.18);
+    box-shadow: inset 0 0 0 rgba(0, 0, 0, 0.18);
     font-family: 'Roboto Condensed';
     font-size: 21px;
     line-height: 24px;
     font-weight: 400;
     text-transform: uppercase;
-    text-shadow: -1px -1px 0px rgba(0,0,0,0.21);
+    text-shadow: -1px -1px 0px rgba(0, 0, 0, 0.21);
     color: #ffffff;
     cursor: pointer;
     outline: none;
 }
+
 .promo .more .more_text {
     margin-top: 69px;
     text-align: center;
-    font-family: Roboto;
-    font-size: 15px;    
+
+    font-size: 15px;
     font-weight: 100;
     text-transform: uppercase;
     color: #ffffff;
 }
+
 .promo .more .more_img {
     display: block;
     margin: 0px auto;
     margin-top: 13px;
 }
+
 .waiting {
     min-height: 604px;
     background-color: #efefef;
     padding: 85px 0px 75px 0px;
 }
+
 .waiting .waiting_header {
-    font-family: Roboto;
+
     font-size: 30px;
     font-weight: 400;
     text-transform: uppercase;
     color: #252525;
-    text-align: center;    
+    text-align: center;
 }
+
 .waiting .waiting_divider {
     width: 217px;
     height: 4px;
     background-color: #f9bf3b;
     margin: 0 auto;
     margin-top: 18px;
-    
+
 }
+
 .waiting .waiting_subheader {
-    font-family: Roboto;
+
     font-size: 23px;
     font-weight: 400;
-    color: #4a4a4a;   
-    text-align: center;  
+    color: #4a4a4a;
+    text-align: center;
     margin-top: 17px;
 }
-.waiting .waiting_wraper  {
+
+.waiting .waiting_wraper {
     display: flex;
     justify-content: space-between;
     margin-top: 45px;
-   }
+}
 
 .waiting .waiting_wraper .waiting_item {
     width: 342px;
     text-align: center;
-    font-family: Roboto;
+
     font-size: 15px;
     line-height: 21px;
     font-weight: 300;
-    color: #4a4a4a; 
+    color: #4a4a4a;
 }
 
-.waiting .waiting_wraper .waiting_item .waiting_descr{
+.waiting .waiting_wraper .waiting_item .waiting_descr {
     margin-top: 33px;
-    
+
 }
-.waiting .waiting_wraper .waiting_item img{
+
+.waiting .waiting_wraper .waiting_item img {
     width: 100%;
 }
 
@@ -169,24 +188,26 @@ h2.title {
 
 .optimization .optimization_header {
     margin-left: 391px;
-    font-family: Roboto;
+
     font-size: 28px;
     font-weight: 900;
     text-transform: uppercase;
     color: #299cbd;
 }
+
 .optimization .optimization_text {
     margin-top: 25px;
     margin-left: 391px;
-    font-family: Roboto;
+
     font-size: 17px;
     line-height: 27px;
     font-weight: 300;
     color: #4a4a4a;
 }
+
 .optimization .optimization_text span {
-    
-    font-family: Roboto;
+
+
     font-size: 17px;
     line-height: 27px;
     font-weight: 700;
@@ -198,23 +219,23 @@ h2.title {
     top: -54px;
     left: -240px;
     z-index: -1;
-} 
+}
 
 .finish {
     background: url("../img/bg/second_bg.png") center center/cover no-repeat;
-    padding: 86px 0px 79px 0px ;
+    padding: 86px 0px 79px 0px;
     min-height: 447px;
-    background-color: rgba(44,44,44,0.3);
+    background-color: rgba(44, 44, 44, 0.3);
 }
 
 .finish .finish_header {
-    font-family: Roboto;
     font-size: 30px;
     font-weight: 400;
     text-transform: uppercase;
     color: #efefef;
     text-align: center;
 }
+
 .finish .finish_divider {
     width: 217px;
     height: 4px;
@@ -237,7 +258,7 @@ h2.title {
 
 .finish .finish_round {
     display: flex;
-    justify-content:center;
+    justify-content: center;
     align-items: center;
     margin: 0 auto;
     border-radius: 100%;
@@ -246,37 +267,40 @@ h2.title {
     background-color: #b4e2ff;
 }
 
-.finish .finish_descr{
+.finish .finish_descr {
     margin-top: 26px;
-    font-family: Roboto;
     font-size: 17px;
     text-align: center;
     font-weight: 300;
     color: #efefef;
 }
+
 .gift {
     min-height: 628px;
     background-color: #efefef;
     padding: 83px 0 86px 0;
 }
-.gift .bow_logo{
+
+.gift .bow_logo {
     display: block;
     margin-left: 526px;
 
 }
+
 .gift .gift_logo {
     display: block;
     margin: 0 auto;
 }
+
 .gift .gift_text {
     margin-top: 42px;
     text-align: center;
-    font-family: Roboto;
     font-size: 30px;
     line-height: 43px;
     font-weight: 400;
     color: #252525;
 }
+
 .gift .gift_btn {
     display: block;
     margin: 0 auto;
@@ -284,14 +308,14 @@ h2.title {
     width: 321px;
     height: 80px;
     background-image: linear-gradient(0.0deg, #2798b9 0%, #3ab6da 100%);
-    border: 4px solid rgba(0,0,0,0.1);
-    box-shadow: inset 0px 0px 0px 0px rgba(0,0,0,0.17);
+    border: 4px solid rgba(0, 0, 0, 0.1);
+    box-shadow: inset 0px 0px 0px 0px rgba(0, 0, 0, 0.17);
     font-family: 'Roboto Condensed';
     font-size: 21px;
     line-height: 24px;
     font-weight: 400;
     text-transform: uppercase;
-    text-shadow: -1px -1px 0px rgba(0,0,0,0.21);
+    text-shadow: -1px -1px 0px rgba(0, 0, 0, 0.21);
     color: #ffffff;
     cursor: pointer;
     outline: none;
@@ -301,68 +325,69 @@ h2.title {
     padding: 89px 0 64px 0;
 }
 
-.first .first_img{
+.first .first_img {
     display: block;
     margin: 0 auto;
 }
+
 .first .first_header_1 {
     margin-top: 37px;
     text-align: center;
-    font-family: Roboto;
     font-size: 30px;
     font-weight: 400;
     text-transform: uppercase;
     color: #252525;
 }
+
 .first .first_header_2 {
     margin-top: 30px;
     text-align: center;
-    font-family: Roboto;
     font-size: 36px;
     font-weight: 900;
     text-transform: uppercase;
     color: #299cbd;
-}   
+}
+
 .first .first_header_3 {
     margin-top: 25px;
     text-align: center;
-    font-family: Roboto;
     font-size: 23px;
     font-weight: 400;
     color: #4a4a4a;
-}   
-footer {
-padding: 61px 0 69px 0;
-min-height: 166px;
-background-color: #1a1a1a;
 }
+
+footer {
+    padding: 61px 0 69px 0;
+    min-height: 166px;
+    background-color: #1a1a1a;
+}
+
 footer .support {
     display: flex;
     justify-content: center;
 }
+
 footer .policy {
-    font-family: Roboto;
     font-size: 15px;
     line-height: 21px;
     font-weight: 300;
     text-decoration: underline;
     color: #888888;
 }
+
 footer #vertical {
-    font-family: Roboto;
     font-size: 15px;
     line-height: 21px;
     font-weight: 300;
     text-decoration: none;
     color: #888888;
-}
-footer #call {
-    text-align: center;
-    font-family: Roboto;
-    line-height: 21px;
-    font-size: 15px;
-    font-weight: 300;
-    color: #888888;
-    text-decoration: none;
 }
 
+footer #call {
+    text-align: center;
+    line-height: 21px;
+    font-size: 15px;
+    font-weight: 300;
+    color: #888888;
+    text-decoration: none;
+}

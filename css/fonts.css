@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'San Francisco Text Light';
+    src: url('../fonts/San-Francisco/SFUIText-Light.eot');
+    src: url('../fonts/San-Francisco/SFUIText-Light.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/San-Francisco/SFUIText-Light.woff') format('woff'),
+        url('../fonts/San-Francisco/SFUIText-Light.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
